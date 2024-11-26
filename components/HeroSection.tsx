@@ -1,10 +1,8 @@
-
 "use client"; // this is a client component
 import React from "react";
 import Image from "next/image";
-import logo_pms from "../public/prefeitura_letra_branca.png"
-import gear from "../public/tools.png"
-import { Link } from "react-scroll/modules";
+import logo_pms from "../public/prefeitura_letra_branca.png";
+import gear from "../public/tools.png";
 
 const HeroSection = () => {
   return (
@@ -26,7 +24,7 @@ const HeroSection = () => {
             alt="Logo"
             width={60}
             height={60}
-            className="ml-4 mb-4"
+            className="ml-4 mb-4 hidden sm:block" // Esconde no mobile
           />
         </div>
 
