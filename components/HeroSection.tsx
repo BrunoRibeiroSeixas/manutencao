@@ -38,12 +38,12 @@ const HeroSection = () => {
           >
             Contate-nos
           </a>
-          <a
-            href="#"
-            className="border-2 border-sky-500  text-white font-bold py-3 px-6 rounded"
+          <button
+            onClick={() => window.location.reload()}
+            className="border-2 border-sky-500 text-white font-bold py-3 px-6 rounded"
           >
             Atualizar
-          </a>
+          </button>
         </div>
       </div>
     </section>
