@@ -33,7 +33,7 @@ const HeroSection = () => {
         </p>
         <div className="flex space-x-4">
           <a
-            href="#"
+            href="https://salvadordigital.salvador.ba.gov.br"
             className="bg-sky-500 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded"
           >
             Contate-nos
