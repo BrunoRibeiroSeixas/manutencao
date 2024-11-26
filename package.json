@@ -2,12 +2,12 @@
   "name": "temp",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev -p 8080",
+  "build": "next build",
+  "start": "next start -p 8080",
+  "lint": "next lint"
+},
   "dependencies": {
     "@next/font": "13.1.6",
     "@types/node": "20.14.10",
